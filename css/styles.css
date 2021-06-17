@@ -1,0 +1,166 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+form {
+  margin: 10px 120px;
+}
+
+p {
+  color: #8f8f8f;
+}
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Headings */
+
+.title-heading {
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.menu-price-form-heading {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pastry-item-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Navbar Section */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Title Section */
+
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.title-image {
+  transform: rotate(324deg);
+  position: absolute;
+
+}
+
+/* Menu section */
+
+#menu {
+  padding: 100px;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.donut {
+  width: 45%;
+  margin: 20px;
+}
+
+.order-button {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+
+/* Form section */
+
+#form {
+  color: #fff;
+}
+
+.form-group {
+  text-align: left;
+}
+
+.form-container {
+  background-color: #4AA96C;
+  border: 2px solid #ff4c68;
+  border-radius: 40px;
+  padding: 40px 50px;
+}
+
+.form-button {
+  width: 50%;
+  margin: 30px auto;
+  color: #fff;
+  background-color: #ff4c68;
+}
+.form-input{
+  border: 1px solid #ff4c68;
+
+}
+
+/* Footer Section */
+#footer {
+  background-color: #564A4A;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #ff4c68;
+}
+
+.social-icon:hover {
+  color: #e18f72;
+}
+.copyright-text{
+  color: #fff;
+}
+
+/* media query section */
+
+@media(max-width:1152px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+@media(max-width:1170px) {
+form {
+margin: 10px 0px;
+}
+}
+@media(max-width:1140px) {
+  .title-image {
+    width: 90%;
+}
+}
